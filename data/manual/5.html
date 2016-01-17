@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Contingency 88 - Game Manual</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script src="nav.js"></script>
+</head>
+<body>
+<div style="max-width:1280px;margin-left:auto;margin-right:auto;">
+<div style="text-align:center;"><span style="color:#55FFFF;">Controls</span></div>
+<br>
+The <span style="color:#FF5555">Contingency 88</span> software relies heavily on the use of a mouse. If you are unfamiliar with this peripheral please delegate use of this software to someone with a background in advanced computing.
+<br>
+<br>
+<span class="cyan">Left clicking</span> on a tile will zone it as the selected district or if the tile is 
+already the selected district, unzone it entirely. You may hold the mouse button 
+down to zone multiple tiles with a single button press.<br>
+<br>
+<span class="cyan">Right clicking</span> on a tile will fill that area with the selected district, or if the tile is already the
+selected district, unzone the area. <span class="red">This feature is a bit buggy at times.</span> For best results, create an
+enclosed area and then fill the inside, ideally clicking on a tile just below the top border.<br>
+<br>
+<span class="cyan">The mouse wheel</span> can be used to cycle through which district you will zone tiles as. If you do not have a mouse with a wheel you can simply <span class="cyan">press the appropriate number key</span> to select a district<br>
+<br>
+After completing your zoning, simply <span class="cyan">click the red FINALIZE button</span> in the sidebar to confirm your choice and run the election.<br>
+<br>
+However there are <span class="red">requirements</span> that MUST be met before finalizing. The percent of tiles undistricted must read <span class="red">0%</span>. Also the difference between the largest district and the smallest district must <span class="red">not exceed 20%</span>. Ignoring either of these will bring too much attention to the districting process and be met with overwhelming hostility.<br>
+<br>
+If you are ever forgetful about how to use this software effectively, <span class="cyan">hit F1</span> to open a copy of the manual.<br><br>
+When the time comes to exit the program, on most screens you may simply <span class="cyan">press Escape</span>. Your current progress in a level
+is <span class="red">NOT saved</span>. However you will be able to start from that level again in the future.
+<div style="text-align:center;"><input type="button" class="onbutton" value="Previous Message" onclick="Go(4)"> <input type="button" class="onbutton" value="File List" onclick="Go('dir')"> <input class="onbutton" type="button" value="Next Message" onclick="Go(6)"></div>
+</div>
+</body>
+
+</html>

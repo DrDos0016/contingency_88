@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "pcs";
+  src: url("pcsenior.ttf");
+  }
+  
+body
+{
+    font-family: pcs, monospace;
+    font-size:12pt;
+    color:#FFFF55;
+    background-color:#000000;
+}
+
+.offbutton
+{
+color:#000000;
+background-color:#555555;
+border:2px solid #AAAAAA;
+font-family: pcs;
+}
+
+.onbutton
+{
+color:#FFFFFF;
+background-color:#555555;
+border:2px solid #AAAAAA;
+font-family: pcs;
+}
+
+ul
+{
+list-style-type: none;
+width:50%;
+margin-left:auto;
+margin-right:auto;
+}
+
+li
+{
+color:#FFFF55;
+border-bottom: 2px solid #AA5500;
+}
+
+a
+{
+color:#FFFF55;
+text-decoration:none;
+}
+
+a:visited
+{
+color:#FFFF55;
+}
+
+a:hover
+{
+color:#FFFFFF;
+}
+
+img
+{
+margin-left:auto;
+margin-right:auto;
+display:block;
+}
+
+h1
+{
+    font-size:12pt;
+    font-weight:normal;
+    color:#55FFFF;
+}
+
+.cyan
+{
+    color:#55FFFF;
+}
+.red
+{
+    color:#FF5555;
+}
+.blue
+{
+    color:#5555FF;
+}
+.green
+{
+    color:#55FF55;
+}
+.purple
+{
+    color:#FF55FF;
+}
+.white
+{
+    color:#FFFFFF;
+}
