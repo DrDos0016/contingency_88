@@ -1,3 +1,4 @@
 thumbs.db
 data/solutions/*.png
-
+__pycache__
+venv/
